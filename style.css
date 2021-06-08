@@ -1,0 +1,308 @@
+body{
+    background-color: hsl(229, 57%, 11%);
+    margin: 0ch; 
+    font-size: 14px; 
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width:400px) {
+    #bg{
+        margin: 0;
+        z-index: -1;
+        background-image: url('images/bg-mobile.png');
+        background-repeat: no-repeat;
+        height: 700px;
+        background-size: cover; 
+    }
+
+    .main-content1{
+        padding: 27% 1% 10% 7%;
+        display: flex;
+        flex: auto;
+        flex-direction: column;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    #tp{
+        display: flex;
+        flex: auto;
+        height: 40%;
+        width: 80%;
+        background-color: hsl(228, 56%, 26%);
+        padding: 10% 1% 10% 9%;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        flex-direction: column;
+    }
+
+    #logo{
+        width: 50%;
+        height: 70%;
+    }
+
+    #icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    width: 70%;
+    height: 50%;
+    }
+
+    .i1{
+    display: flex;
+    background-color: hsl(229, 57%, 11%);
+    margin: 2px;
+    padding: 8%;
+    align-items: center;
+    border-radius: 10px;
+    }
+
+    #bt{
+    margin-top: 5%;
+    display: flex;
+    flex: auto;
+    height: 40%;
+    width: 80%;
+    background-color: hsl(228, 56%, 26%);
+    padding: 10% 5% 5% 5%;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    }
+    
+    #a{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    #bar{
+        margin-left: 7%;
+        width: 110%; 
+        background-color: hsl(229, 57%, 11%);
+        height: 20px;
+        border-radius: 25px;
+    }
+
+
+    .slidecontainer {
+        width: 80%;
+      }
+
+    .slider {
+        margin: 0;
+        -webkit-appearance: none;
+        height:15px;
+        width: 80%;
+        background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+        border-radius: 25px;
+        border: 3px solid hsl(229, 57%, 11%);
+      }
+      
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        background: #04AA6D;
+        cursor: pointer;
+      }
+      
+      .slider::-moz-range-thumb {
+        background: rgb(247, 244, 244);
+        cursor: pointer;
+      }
+    
+      #vals{
+          margin-top: 3%;
+          display: flex;
+          margin-left: 7%;
+          margin-right: 7%;
+          justify-content: space-between;
+          font-weight: bold;
+          margin-bottom: 7%;
+          padding-bottom: 5%;
+      }
+
+    #b #c{
+        margin-bottom: 5%;        
+    }
+      
+    #w{
+        display: flex;
+        color: hsl(229, 57%, 11%);
+        position: absolute;
+        background-color: white;
+        padding: 4% 4% 4% 4%;
+        margin-top: 30%;
+        margin-left: 23%;
+        border-radius: 10px;
+        width: 35%;
+        font-size: 30px;
+        align-items: center;
+    }
+
+    #w span{
+        color: hsl(229, 7%, 55%);
+        padding-left: 10%;
+        font-size: 12px;
+    } 
+}
+
+
+@media (min-width:1500px) {
+    #bg{
+        margin-top: 19%;
+        z-index: -1;
+        height: 420px;    
+        background-image: url('images/bg-desktop.png');
+        background-repeat: no-repeat;
+        background-size:cover;    
+    }
+    
+    #main-content{
+        margin-top: -7%;
+        display: flex;
+        flex: auto;
+        width: 60%;
+        margin-left: 20%;
+        position: absolute;
+    }
+    
+    #tp{
+        display: flex;
+        flex: auto;
+        height: 40%;
+        width: 30%;
+        background-color: hsl(228, 56%, 26%);
+        padding: 5% 1% 5% 5%;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        flex-direction: column;
+    }
+    
+    #logo{
+        width: 50%;
+        height: 70%;
+    }
+    
+    #icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    width: 60%;
+    height: 50%;
+    }
+    
+    .i1{
+    display: flex;
+    background-color: hsl(229, 57%, 11%);
+    margin: 2px;
+    padding: 8%;
+    width: 60%;
+    margin-left: 4%;
+    margin-right: 4%;
+    align-items: center;
+    border-radius: 10px;
+    }
+    
+    #bt{
+    display: flex;
+    flex: auto;
+    height: 40%;
+    width: 60%;
+    background-color: hsl(228, 56%, 26%);
+    margin-top: 5%;
+    padding: 2%;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    margin-left: 4%;
+    border-radius: 10px;
+    }
+    
+    #a{
+        padding-top: 2%;
+        padding-left: 5%;
+        margin-bottom: 5%;
+    }
+    
+    #bar{
+        margin-left: 7%;
+        width: 110%; 
+        background-color: hsl(229, 57%, 11%);
+        height: 20px;
+        border-radius: 25px;
+    }
+    
+    .slidecontainer {
+        width: 80%;
+      }
+    
+    .slider {
+        margin: 0;
+        -webkit-appearance: none;
+        height:15px;
+        width: 80%;
+        background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+        border-radius: 25px;
+        border: 3px solid hsl(229, 57%, 11%);
+      }
+      
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        background: #04AA6D;
+        cursor: pointer;
+      }
+      
+      .slider::-moz-range-thumb {
+        background: rgb(247, 244, 244);
+        cursor: pointer;
+      }
+    
+      #vals{
+          margin-top: 3%;
+          display: flex;
+          margin-left: 7%;
+          margin-right: 7%;
+          justify-content: space-between;
+          font-weight: bold;
+          margin-bottom: 5%;
+      }
+    
+    #b #c{
+        margin-bottom: 5%;
+    }
+      
+    #w{
+        display: flex;
+        color: hsl(229, 57%, 11%);
+        position: absolute;
+        background-color: white;
+        padding: 4% 4% 4% 4%;
+        margin-top: -13%;
+        margin-left: 60%;
+        border-radius: 10px;
+        width: 18%;
+        font-size: 30px;
+        align-items: center;
+    }
+    
+    #w span{
+        color: hsl(229, 7%, 55%);
+        padding-left: 10%;
+        font-size: 12px;
+    } 
+}

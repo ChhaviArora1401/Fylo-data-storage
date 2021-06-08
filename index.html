@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="bg">
+    <div id="main-content" class="main-content1">
+      <div id="tp" class="tp1">
+        <img id="logo" src="images/logo.svg">
+        <div id="icons">
+          <span class="i1">
+            <img src="images/icon-document.svg">
+          </span>
+          <span class="i1">
+            <img src="images/icon-folder.svg">
+          </span>
+          <span class="i1">
+            <img src="images/icon-upload.svg">
+          </span>
+        </div>
+      </div>
+      <div id="bt">
+        <span id="a">You’ve used <b>815 GB</b> of your storage</span>
+        <div class="slidecontainer">
+          <div id="bar"> <input type="range" min="1" max="100" value="100" class="slider" id="myRange"></div>
+        </div>
+        <div id="vals"><span id="b">0 GB</span>
+          <span id="c">1000 GB</span></div>
+        <div id="w"> <b>185</b> <span>GB Left</span></div>
+      </div>
+    </div>
+    <!-- <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </footer> -->
+  </div>
+</body>
+
+</html>
